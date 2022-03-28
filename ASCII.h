@@ -7,10 +7,11 @@ class ASCII
 {
 public:
     ASCII();
-        QImage getImagen();
-        void setImage();
-        void transformImagen();
-        void saveImagen();
+    QImage getImagen();
+    void setImage();
+    void transformImagen();
+    ~ASCII();
+
 private:
     QImage imagen;
     QImage imagenSalida;
